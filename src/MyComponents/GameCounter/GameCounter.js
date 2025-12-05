@@ -68,6 +68,7 @@ return (
             <div className="message-box">{message}</div>
             <div className="timer-box">{seconds} сек</div>
             <div className="hint-box">Нажмите "R" чтобы начать сначала</div>
+            <div className="hint-box">Играешь на телефоне, обновис страницу для сброса</div>
         </div>
     </>
 )
