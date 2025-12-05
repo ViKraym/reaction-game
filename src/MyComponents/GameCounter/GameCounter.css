@@ -1,0 +1,80 @@
+/* Общий контейнер */
+.counterBox {
+  background: radial-gradient(circle at top, #0f0f0f, #1a1a1a);
+  border: 2px solid #00f0ff;
+  border-radius: 16px;
+  padding: 2rem;
+  max-width: 360px;
+  margin: 2rem auto;
+  box-shadow: 0 0 20px #00f0ff88;
+  font-family: 'Orbitron', sans-serif;
+  color: #e0e0e0;
+  text-align: center;
+}
+
+/* Заголовок */
+.title-h1 {
+  font-size: 1.8rem;
+  color: #00f0ff;
+  margin-bottom: 1rem;
+  text-shadow: 0 0 8px #00f0ff;
+}
+
+/* Кнопка "+" */
+.btn-counter {
+  background: linear-gradient(145deg, #00f0ff, #0077aa);
+  border: none;
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 0.6rem 1.2rem;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 0 10px #00f0ff;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.btn-counter:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px #00f0ff;
+}
+
+/* Счётчик */
+.resultBox {
+  font-size: 2.5rem;
+  margin: 1rem;
+  color: #00ffcc;
+  background-color: #111;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  box-shadow: inset 0 0 10px #00f0ff55;
+}
+
+/* Контейнер кнопки и счётчика */
+.counter-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Сообщения */
+.message-box {
+  font-size: 1rem;
+  margin-top: 1rem;
+  color: #ff00cc;
+  text-shadow: 0 0 6px #ff00cc;
+}
+
+/* Таймер */
+.timer-box {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+  color: #00ffcc;
+}
+
+/* Подсказка */
+.hint-box {
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  color: #888;
+}
